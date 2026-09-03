@@ -14,8 +14,11 @@ _（待摄入）_
 - [项目页模板](projects/_template.md) — 含防遗漏五个固定栏目的新建项目参照
 
 ## 硬件资料（hardware/）
+### 相机（cameras/）
 - [MARS-2442-192X2M-NF](hardware/cameras/MARS-2442-192X2M-NF.md) — 大恒火星系列 CXP2.0 2440万像素/192fps 全局快门黑白工业相机
 - [TS21MCXP12-230M/C](hardware/cameras/TS21MCXP12-230M.md) — 埃科 TAURUS 系列 CXP-12 2100万像素/231fps 全局快门高速相机
+### 传感器（sensors/）
+- [基恩士 LJ-X8000 系列](hardware/sensors/Keyence-LJ-X8000系列.md) — 2D/3D 线激光测量仪（光切断法），3200点/轮廓，10 种探头量程 X 8~720mm
 
 ## 视觉系统搭建与集成（systems/）
 _（待摄入）_

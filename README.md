@@ -23,6 +23,10 @@
 
 ### 2026-09
 
+- **09-03 ｜ 摄入 · 硬件（传感器）**：基恩士 **LJ-X8000 系列 2D/3D 线激光测量仪**（光切断法 3D 轮廓，3200 点/轮廓，10 种探头量程 X 8~720mm）[@公司机]
+  - 传感器页：[Keyence-LJ-X8000系列](vision-wiki/wiki/hardware/sensors/Keyence-LJ-X8000系列.md)
+  - 原始存档：[产品样本 PDF（52页）](vision-wiki/raw/datasheets/Keyence-LJ-X8000系列-2D3D线激光测量仪-产品样本.pdf)
+
 - **09-03 ｜ 摄入 · 硬件 + 综合分析**：埃科光电 **TS21MCXP12-230M/C** 相机（CXP-12 ／ 2100 万像素 ／ 231fps 全局快门）+《相机实验对比》PPT（21MP vs 24MP 景深实拍） [@公司机]
   - 相机页：[TS21MCXP12-230M](vision-wiki/wiki/hardware/cameras/TS21MCXP12-230M.md)
   - 对比实验：[21MP对比24MP-相机景深实验](vision-wiki/wiki/synthesis/21MP对比24MP-相机景深实验.md)（结论：小像元 + 低倍率景深更大，拍 PCB 高处元件/丝印更清晰）
