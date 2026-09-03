@@ -14,7 +14,7 @@
 - 主人：**大程**，机器视觉工程师（图像处理 / 算法 / 软件开发 / 视觉系统搭建）。
 - 目标：让工作更轻松——做项目时快速复用已有方案、选型、踩坑经验，避免重复劳动。
 - 形态：Karpathy Wiki 模式（持久化、持续复利的个人知识库）。用 Obsidian 打开本文件夹（`F:\我的知识库`）即为 vault。
-- 远程：GitHub 私有/公开仓库 `cheng-wj/MyKnowledgeBase`，本文件夹即仓库根。
+- 远程：GitHub 仓库 `cheng-wj/MyKnowledgeBase`，本文件夹即仓库根。
 
 ## 三层结构（知识库主体在 `vision-wiki/`）
 
@@ -35,14 +35,19 @@
 3. 在 `vision-wiki/wiki/` 对应分类下建/更新页面（算法→algorithms/，项目→projects/，硬件→hardware/，系统→systems/）。
 4. 更新 `wiki/index.md`、追加 `wiki/log.md`（格式：`## [YYYY-MM-DD] ingest | 标题`，链接用相对 wiki/ 的路径）。
 5. **同步更新根目录 `README.md` 的"内容更新记录"**（最新的在最上面，带页面链接）。
-6. 提醒或直接帮主人提交推送：`git add -A` → `git commit -m "..."` → `git push`。
-7. 汇报触及了多少页面。
+6. 汇报触及了多少页面。
 
 ### Query（提问）
 先读 `wiki/index.md` 找相关页 → 深入阅读 → 综合回答并引用来源 → 有持续价值的产物（对比分析、主题梳理）存回 `wiki/synthesis/`，并追加 `wiki/log.md`。
 
 ### Lint（健康检查）
 扫描矛盾、过时声明、孤立页、文中提到但未建页的概念、缺失交叉引用；自动修能修的，报告需人工判断的；追加 `wiki/log.md`。
+
+## Git 与同步约定
+
+- 内容改动后可以本地 `git add -A` 和 `git commit`。
+- **`git push` 推送到 GitHub 之前，必须先询问主人，经明确同意后才推送**，不得擅自推送。
+- 提交信息用中文简述本次改动（如 `ingest: 摄入 xxx`、`docs: ...`）。
 
 ## 页面格式
 
@@ -65,3 +70,10 @@
 - 打开仓库根文件夹即为 vault。
 - 启用 Dataview 插件，可对页面 frontmatter 跑查询，生成动态表格。
 - 图片放 `vision-wiki/assets/`，页面用标准相对链接引用。
+
+## 家规修改记录（Changelog）
+
+> 本文件（AGENTS.md）每次改动都在此追加一条：日期 + 改了什么。
+
+- **2026-09-03**：家规由 `vision-wiki/CLAUDE.md` 合并到仓库根 `AGENTS.md`，废止 CLAUDE.md；新增"每次摄入同步更新根目录 README.md""公开仓库客户名用代号/敏感信息脱敏"两条约定。
+- **2026-09-03**：新增本"家规修改记录"章节；新增 Git 约定——**`git push` 前必须先询问主人，经同意才推送**（本地 commit 可正常进行）。

@@ -50,3 +50,6 @@
 - 家规全部内容（两条死规矩、四大板块、项目页五栏目、Ingest/Query/Lint 工作流）合并到仓库根 [AGENTS.md](../../AGENTS.md)，Codex 在仓库根打开即可自动加载。
 - 新增约定：每次摄入同步更新根目录 README.md；公开仓库下客户名用代号、敏感信息脱敏。
 - 已更新 index.md、overview.md、README.md 中指向旧 CLAUDE.md 的链接。
+## [2026-09-03] lint | 家规新增两条约定
+- AGENTS.md 新增"家规修改记录（Changelog）"章节，以后家规每次改动都追加记录。
+- 新增 Git 约定：git push 推送前必须先询问主人、经同意才推送；本地 commit 可正常进行。
