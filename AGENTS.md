@@ -34,7 +34,7 @@
 2. 读内容，与主人讨论要点。
 3. 在 `vision-wiki/wiki/` 对应分类下建/更新页面（算法→algorithms/，项目→projects/，硬件→hardware/，系统→systems/）。
 4. 更新 `wiki/index.md`、追加 `wiki/log.md`（格式：`## [YYYY-MM-DD] ingest | 标题`，链接用相对 wiki/ 的路径）。
-5. **同步更新根目录 `README.md` 的"内容更新记录"**（最新的在最上面，带页面链接）。
+5. **同步更新根目录 `README.md` 的"内容更新记录"**（最新的在最上面，带页面链接），每条记录末尾标注来源设备 `[@称呼]`。
 6. 汇报触及了多少页面。
 
 ### Query（提问）
@@ -48,6 +48,19 @@
 - 内容改动后可以本地 `git add -A` 和 `git commit`。
 - **`git push` 推送到 GitHub 之前，必须先询问主人，经明确同意后才推送**，不得擅自推送。
 - 提交信息用中文简述本次改动（如 `ingest: 摄入 xxx`、`docs: ...`）。
+
+## 多设备识别（按电脑名区分上传/录入设备）
+
+本仓库通过 Git 在多台设备间同步。每次开始工作前，先用 `hostname`（PowerShell `$env:COMPUTERNAME`）查当前设备，按下表确认身份；遇到未登记的新设备，先查 hostname 再把它补进本表。
+
+| 主机名 | 称呼 | 用户 / 平台 | 仓库路径 | git 作者名 | 备注 |
+|---|---|---|---|---|---|
+| `DESKTOP-R4RRO1S` | 公司机 | ZY / Windows | `F:\我的知识库` | `大程·公司机` | Python 用 `py` 启动器（`python` 为商店占位符不可用）；git 走代理 `127.0.0.1:7897` |
+
+设备标记约定：
+- 每台设备设独立 git 作者名 `大程·<称呼>`（邮箱统一 `cheng-wj@users.noreply.github.com`，仍关联 GitHub 账号）；
+- README「内容更新记录」每条、`vision-wiki/wiki/log.md` 每条记录，末尾标注来源设备，格式 `[@称呼]`（如 `[@公司机]`）；
+- 下次在未记录的设备上工作，先 `hostname` 查名，补登本表并设置对应 git 作者名。
 
 ## 页面格式
 
