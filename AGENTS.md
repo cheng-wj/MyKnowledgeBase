@@ -13,7 +13,7 @@
 
 - 主人：**大程**，机器视觉工程师（图像处理 / 算法 / 软件开发 / 视觉系统搭建）。
 - 目标：让工作更轻松——做项目时快速复用已有方案、选型、踩坑经验，避免重复劳动。
-- 形态：Karpathy Wiki 模式（持久化、持续复利的个人知识库）。用 Obsidian 打开本文件夹（`F:\我的知识库`）即为 vault。
+- 形态：Karpathy Wiki 模式（持久化、持续复利的个人知识库）。用 Obsidian 打开仓库根文件夹即为 vault；各设备的本机路径见下方设备表。
 - 远程：GitHub 仓库 `cheng-wj/MyKnowledgeBase`，本文件夹即仓库根。
 
 ## 三层结构（知识库主体在 `vision-wiki/`）
@@ -56,6 +56,7 @@
 | 主机名 | 称呼 | 用户 / 平台 | 仓库路径 | git 作者名 | 备注 |
 |---|---|---|---|---|---|
 | `DESKTOP-R4RRO1S` | 公司机 | ZY / Windows | `F:\我的知识库` | `大程·公司机` | Python 用 `py` 启动器（`python` 为商店占位符不可用）；git 走代理 `127.0.0.1:7897` |
+| `DESKTOP-FP4I9GS` | 个人机 | chengwenjie / Windows | `E:\MyKnowledgeBase` | `大程·个人机` | Python 3.12 可用 `python` 启动 |
 
 设备标记约定：
 - 每台设备设独立 git 作者名 `大程·<称呼>`（邮箱统一 `cheng-wj@users.noreply.github.com`，仍关联 GitHub 账号）；
