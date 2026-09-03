@@ -15,6 +15,7 @@ _（待摄入）_
 
 ## 硬件资料（hardware/）
 - [MARS-2442-192X2M-NF](hardware/cameras/MARS-2442-192X2M-NF.md) — 大恒火星系列 CXP2.0 2440万像素/192fps 全局快门黑白工业相机
+- [TS21MCXP12-230M/C](hardware/cameras/TS21MCXP12-230M.md) — 埃科 TAURUS 系列 CXP-12 2100万像素/231fps 全局快门高速相机
 
 ## 视觉系统搭建与集成（systems/）
 _（待摄入）_
@@ -26,4 +27,4 @@ _（待摄入）_
 _（待摄入）_
 
 ## 综合分析（synthesis/）
-_（待摄入）_
+- [21MP对比24MP-相机景深实验](synthesis/21MP对比24MP-相机景深实验.md) — 埃科21MP(4.5μm/0.68×) vs 大恒24MP(2.74μm/0.39×) 实拍：小像元低倍率景深更大

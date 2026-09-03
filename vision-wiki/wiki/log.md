@@ -56,3 +56,10 @@
 ## [2026-09-03] lint | 家规修改记录改为独立文件（参照 GoodLife）
 - 新建仓库根 [AGENTS.md_修改记录.md](../../AGENTS.md_修改记录.md)：按 GoodLife 惯例，每条记录含"修改文件/修改内容/修改思路/验证情况"，已补记 AGENTS.md 第一、二次改动。
 - AGENTS.md 移除内联"家规修改记录"小节，改为"修改记录要求"节，指向独立文件。
+## [2026-09-03] ingest | 埃科 TS21MCXP12-230M/C 规格书 + 21MP/24MP 景深对比实验
+- 资料①：埃科光电 TAURUS TS21MCXP12-230M/C 产品规格书 PDF → 存档 [raw/datasheets](../raw/datasheets/TS21MCXP12-230M(C)%20产品规格书.pdf)，新建 [相机页](hardware/cameras/TS21MCXP12-230M.md)。
+- 资料②：《相机实验对比.pptx》（21MP 埃科 vs 24MP 大恒；220mm 镜头 f8、同光源）→ 存档 [raw/articles](../raw/articles/相机实验对比-21MP对比24MP.pptx)，4 张对比图存 raw/images 与 assets，新建综合分析页 [21MP对比24MP-相机景深实验](synthesis/21MP对比24MP-相机景深实验.md)。
+- 交叉引用：MARS 相机页新增「对比实验」节，两台相机页互链，实验页链接两台相机。
+- 更新：index.md（硬件 + 综合分析）、README.md 更新记录、本日志。
+- 触及：2 个新页 + MARS 页/index/log/README，共 6 处。
+- 待补：主人补充实验背景（哪个项目/客户场景）、两台相机的实际选型结论。

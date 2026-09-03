@@ -22,6 +22,11 @@
 
 ### 2026-09
 
+- **09-03 ｜ 摄入 · 硬件 + 综合分析**：埃科光电 **TS21MCXP12-230M/C** 相机（CXP-12 ／ 2100 万像素 ／ 231fps 全局快门）+《相机实验对比》PPT（21MP vs 24MP 景深实拍）
+  - 相机页：[TS21MCXP12-230M](vision-wiki/wiki/hardware/cameras/TS21MCXP12-230M.md)
+  - 对比实验：[21MP对比24MP-相机景深实验](vision-wiki/wiki/synthesis/21MP对比24MP-相机景深实验.md)（结论：小像元 + 低倍率景深更大，拍 PCB 高处元件/丝印更清晰）
+  - 原始存档：[规格书 PDF](vision-wiki/raw/datasheets/TS21MCXP12-230M%28C%29%20产品规格书.pdf) ｜ [实验 PPT](vision-wiki/raw/articles/相机实验对比-21MP对比24MP.pptx)
+
 - **09-03 ｜ 同步**：知识库纳入 git 并推送 GitHub（本仓库），配置 `.gitignore`，Obsidian 设置随仓库同步。
 - **09-03 ｜ 维护**：知识库维护者切换为 Codex，新增 [AGENTS.md](vision-wiki/AGENTS.md) 入口，家规与工作流不变。
 
