@@ -37,3 +37,8 @@
 - 现状：仅摄入 1 篇（MARS-2442-192X2M-NF 相机）；algorithms / systems / concepts / entities / synthesis 待摄入。
 ## [2026-09-03] lint | 主人称呼更正
 - 主人称呼由"小程"更正为"大程"，已同步更新 AGENTS.md；后续页面与记录一律使用"大程"。
+## [2026-09-03] sync | 知识库纳入 git 并推送 GitHub
+- 仓库根目录：F:\我的知识库（含 vision-wiki、.obsidian 配置、.workbuddy 记忆）。
+- 远程私有仓库：https://github.com/cheng-wj/MyKnowledgeBase （Private）。
+- 已添加 .gitignore（忽略系统垃圾与 Obsidian 工作区缓存），首次提交 19 个文件并推送 main 分支。
+- 以后摄入/维护后记得提交推送：git add -A → git commit -m "..." → git push。
