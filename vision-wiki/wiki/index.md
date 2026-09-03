@@ -5,7 +5,7 @@
 
 ## 说明与总览
 - [知识库总览](overview.md) — 机器视觉知识地图与使用方式
-- [维护说明 (CLAUDE.md)](../CLAUDE.md) — 结构与工作流约定
+- [维护说明 (AGENTS.md)](../../AGENTS.md) — 结构与工作流约定（家规）
 
 ## 算法与算子（algorithms/）
 _（待摄入）_

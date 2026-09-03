@@ -12,7 +12,7 @@
     - `systems/` 视觉系统搭建 ｜ `concepts/` 核心概念 ｜ `entities/` 实体 ｜ `synthesis/` 综合分析
     - `index.md` 内容目录 ｜ `log.md` 详细操作流水 ｜ `overview.md` 知识总览
   - `assets/` —— 图片附件
-  - [CLAUDE.md](vision-wiki/CLAUDE.md) —— 维护约定（家规）
+  - [AGENTS.md](AGENTS.md) —— 维护约定（家规，仓库根，Codex 自动加载）
 - `.obsidian/` —— Obsidian 配置（换电脑克隆后插件与外观设置都在）
 
 ## 内容更新记录

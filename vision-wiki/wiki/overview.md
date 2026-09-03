@@ -24,5 +24,5 @@ updated: 2026-08-19
 - 找东西：用 `wiki/index.md` 目录，或 Obsidian 搜索 / Dataview 视图。
 
 ## 相关页面
-- [维护说明](../CLAUDE.md)
+- [维护说明（家规 AGENTS.md）](../../AGENTS.md)
 - [项目页模板](projects/_template.md)

@@ -45,3 +45,8 @@
 ## [2026-09-03] sync | 新增根目录 README.md（内容更新记录）
 - 应主人要求，在仓库根目录新建 README.md 作为 GitHub 首页：含知识库简介、目录结构、内容更新记录（最新在上）。
 - 历史摄入记录已从 log.md 整理进 README；以后每次摄入内容同步更新 README 与本日志。
+## [2026-09-03] lint | 家规合并：CLAUDE.md 内容并入根目录 AGENTS.md
+- 主人决定不再维护 CLAUDE.md：已删除 vision-wiki/CLAUDE.md 与 vision-wiki/AGENTS.md。
+- 家规全部内容（两条死规矩、四大板块、项目页五栏目、Ingest/Query/Lint 工作流）合并到仓库根 [AGENTS.md](../../AGENTS.md)，Codex 在仓库根打开即可自动加载。
+- 新增约定：每次摄入同步更新根目录 README.md；公开仓库下客户名用代号、敏感信息脱敏。
+- 已更新 index.md、overview.md、README.md 中指向旧 CLAUDE.md 的链接。
