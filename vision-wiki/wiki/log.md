@@ -42,3 +42,6 @@
 - 远程私有仓库：https://github.com/cheng-wj/MyKnowledgeBase （Private）。
 - 已添加 .gitignore（忽略系统垃圾与 Obsidian 工作区缓存），首次提交 19 个文件并推送 main 分支。
 - 以后摄入/维护后记得提交推送：git add -A → git commit -m "..." → git push。
+## [2026-09-03] sync | 新增根目录 README.md（内容更新记录）
+- 应主人要求，在仓库根目录新建 README.md 作为 GitHub 首页：含知识库简介、目录结构、内容更新记录（最新在上）。
+- 历史摄入记录已从 log.md 整理进 README；以后每次摄入内容同步更新 README 与本日志。
