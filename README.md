@@ -23,6 +23,11 @@
 
 ### 2026-09
 
+- **09-08 ｜ 摄入 · 硬件（镜头 + datasheet）**：海康 **MVL-LF4040M-01-M72** 40mm 大靶面线扫镜头（Φ58/M72，8K7μ）+ 大恒 MARS-2442 官方 datasheet [@公司机]
+  - 镜头页：[MVL-LF4040M-01-M72](vision-wiki/wiki/hardware/lenses/MVL-LF4040M-01-M72.md)（含工作距离/视野对照表）
+  - 相机页补 datasheet：[MARS-2442-192X2M-NF](vision-wiki/wiki/hardware/cameras/MARS-2442-192X2M-NF.md)
+  - 原始存档：[镜头 PDF](vision-wiki/raw/datasheets/HIK-MVL-LF4040M-01-M72-镜头datasheet.pdf) ｜ [相机 datasheet PDF](vision-wiki/raw/datasheets/MARS-2442-192X2M-NF-Datasheet-CN.pdf)
+
 - **09-03 ｜ 摄入 · 硬件（传感器）**：基恩士 **LJ-X8000 系列 2D/3D 线激光测量仪**（光切断法 3D 轮廓，3200 点/轮廓，10 种探头量程 X 8~720mm）[@公司机]
   - 传感器页：[Keyence-LJ-X8000系列](vision-wiki/wiki/hardware/sensors/Keyence-LJ-X8000系列.md)
   - 原始存档：[产品样本 PDF（52页）](vision-wiki/raw/datasheets/Keyence-LJ-X8000系列-2D3D线激光测量仪-产品样本.pdf)

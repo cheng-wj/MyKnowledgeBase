@@ -79,3 +79,7 @@
 
 ## [2026-09-03] lint | LJ-X8000 页精简为纯选型数据 [@公司机]
 - 应用户要求去掉原理/应用等散文，页面只保留：10 型探头选型表（基准距离/Z量程/X宽度/Z·X重复精度/轮廓间隔/重量）、公共参数、控制器采样通信；小探头列数据已按 PDF 原表更正。
+## [2026-09-08] ingest | 海康线扫镜头 datasheet + 大恒相机官方 datasheet [@公司机]
+- 资料①：海康 MVL-LF4040M-01-M72（40mm/Φ58/M72，8K7μ 线阵镜头）→ 存档 raw/datasheets/，新建 [镜头页](hardware/lenses/MVL-LF4040M-01-M72.md)（参数表 + 工作距离/视野对照表），index 硬件板块新增"镜头"分组。
+- 资料②：大恒 MARS-2442 官方 datasheet PDF → 存档 raw/datasheets/，相机页补本地 PDF 链接；据 datasheet 核对：接口为 CXP-12×4 通道、功耗黑白 15.2W/彩色 13.7W。
+- 更新：index.md、README.md、本日志。触及：1 新页 + MARS 页/index/README/log，共 5 处。
