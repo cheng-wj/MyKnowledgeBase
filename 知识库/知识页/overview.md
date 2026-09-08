@@ -25,4 +25,4 @@ updated: 2026-08-19
 
 ## 相关页面
 - [维护说明（家规 AGENTS.md）](../../AGENTS.md)
-- [项目页模板](projects/_template.md)
+- [项目页模板](项目/_template.md)

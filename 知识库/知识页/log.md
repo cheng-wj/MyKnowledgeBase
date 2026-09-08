@@ -32,7 +32,7 @@
 
 ## [2026-09-03] takeover | 维护者切换为 Codex [@公司机]
 - 知识库维护者由 WorkBuddy 交接给 Codex（Karpathy Wiki 技能已装到 `C:\Users\ZY\.codex\skills\karpathy-wiki-cn`）。
-- 新增 [AGENTS.md](../AGENTS.md) 作为 Codex 入口，指向 CLAUDE.md 为唯一 schema；两条死规矩与全部约定继续生效。
+- 新增 [AGENTS.md](../../AGENTS.md) 作为 Codex 入口，指向 CLAUDE.md 为唯一 schema；两条死规矩与全部约定继续生效。
 - 历史 .workbuddy/ 记忆保留不动，raw/ 继续只进不改。
 - 现状：仅摄入 1 篇（MARS-2442-192X2M-NF 相机）；algorithms / systems / concepts / entities / synthesis 待摄入。
 ## [2026-09-03] lint | 主人称呼更正 [@公司机]
@@ -57,8 +57,8 @@
 - 新建仓库根 [AGENTS.md_修改记录.md](../../AGENTS.md_修改记录.md)：按 GoodLife 惯例，每条记录含"修改文件/修改内容/修改思路/验证情况"，已补记 AGENTS.md 第一、二次改动。
 - AGENTS.md 移除内联"家规修改记录"小节，改为"修改记录要求"节，指向独立文件。
 ## [2026-09-03] ingest | 埃科 TS21MCXP12-230M/C 规格书 + 21MP/24MP 景深对比实验 [@公司机]
-- 资料①：埃科光电 TAURUS TS21MCXP12-230M/C 产品规格书 PDF → 存档 [raw/datasheets](../raw/datasheets/TS21MCXP12-230M(C)%20产品规格书.pdf)，新建 [相机页](hardware/cameras/TS21MCXP12-230M.md)。
-- 资料②：《相机实验对比.pptx》（21MP 埃科 vs 24MP 大恒；220mm 镜头 f8、同光源）→ 存档 [raw/articles](../raw/articles/相机实验对比-21MP对比24MP.pptx)，4 张对比图存 raw/images 与 assets，新建综合分析页 [21MP对比24MP-相机景深实验](synthesis/21MP对比24MP-相机景深实验.md)。
+- 资料①：埃科光电 TAURUS TS21MCXP12-230M/C 产品规格书 PDF → 存档 [原始资料/规格书](../原始资料/规格书/TS21MCXP12-230M%28C%29%20产品规格书.pdf)，新建 [相机页](硬件/相机/TS21MCXP12-230M.md)。
+- 资料②：《相机实验对比.pptx》（21MP 埃科 vs 24MP 大恒；220mm 镜头 f8、同光源）→ 存档 [raw/articles](../原始资料/文章/相机实验对比-21MP对比24MP.pptx)，4 张对比图存 raw/images 与 assets，新建综合分析页 [21MP对比24MP-相机景深实验](综合分析/21MP对比24MP-相机景深实验.md)。
 - 交叉引用：MARS 相机页新增「对比实验」节，两台相机页互链，实验页链接两台相机。
 - 更新：index.md（硬件 + 综合分析）、README.md 更新记录、本日志。
 - 触及：2 个新页 + MARS 页/index/log/README，共 6 处。
@@ -71,21 +71,28 @@
 ## [2026-09-03] lint | 家规新增"新设备首次接入自检流程" [@公司机]
 - AGENTS.md「多设备识别」节写明：新设备上的 agent 读到家规须自动 hostname 自检——已登记则核对 git 作者名；未登记则自查信息、只问主人一个称呼问题，随后自动补登设备表、设「大程·<称呼>」作者名、登记修改记录，未完成前不提交。
 ## [2026-09-03] ingest | 基恩士 LJ-X8000 系列 2D/3D 线激光测量仪样本 [@公司机]
-- 资料：Keyence LJ-X8000 系列 52 页产品样本 → 存档 [raw/datasheets](../raw/datasheets/Keyence-LJ-X8000系列-2D3D线激光测量仪-产品样本.pdf)。
+- 资料：Keyence LJ-X8000 系列 52 页产品样本 → 存档 [原始资料/规格书](../原始资料/规格书/Keyence-LJ-X8000系列-2D3D线激光测量仪-产品样本.pdf)。
 - 结构：经主人确认，在 hardware/ 下新建 **sensors/** 子目录（3D/线激光等非面阵相机传感器），index 硬件板块分"相机/传感器"两组。
-- 新建 [传感器页](hardware/sensors/Keyence-LJ-X8000系列.md)：光切断法原理、10 种探头选型表（量程/精度）、控制器与通信、应用、与面阵相机选型对比。
+- 新建 [传感器页](硬件/传感器/Keyence-LJ-X8000系列.md)：光切断法原理、10 种探头选型表（量程/精度）、控制器与通信、应用、与面阵相机选型对比。
 - 更新：index.md、README.md、本日志。触及：1 新页 + index/README/log，共 4 处。
 - 待补：主人补充实际项目用的哪型探头、安装高度/视野、踩坑与验收口径。
 
 ## [2026-09-03] lint | LJ-X8000 页精简为纯选型数据 [@公司机]
 - 应用户要求去掉原理/应用等散文，页面只保留：10 型探头选型表（基准距离/Z量程/X宽度/Z·X重复精度/轮廓间隔/重量）、公共参数、控制器采样通信；小探头列数据已按 PDF 原表更正。
 ## [2026-09-08] ingest | 海康线扫镜头 datasheet + 大恒相机官方 datasheet [@公司机]
-- 资料①：海康 MVL-LF4040M-01-M72（40mm/Φ58/M72，8K7μ 线阵镜头）→ 存档 raw/datasheets/，新建 [镜头页](hardware/lenses/MVL-LF4040M-01-M72.md)（参数表 + 工作距离/视野对照表），index 硬件板块新增"镜头"分组。
+- 资料①：海康 MVL-LF4040M-01-M72（40mm/Φ58/M72，8K7μ 线阵镜头）→ 存档 raw/datasheets/，新建 [镜头页](硬件/镜头/MVL-LF4040M-01-M72.md)（参数表 + 工作距离/视野对照表），index 硬件板块新增"镜头"分组。
 - 资料②：大恒 MARS-2442 官方 datasheet PDF → 存档 raw/datasheets/，相机页补本地 PDF 链接；据 datasheet 核对：接口为 CXP-12×4 通道、功耗黑白 15.2W/彩色 13.7W。
 - 更新：index.md、README.md、本日志。触及：1 新页 + MARS 页/index/README/log，共 5 处。
 
 ## [2026-09-08] ingest | HALCON 灰度曲面拟合算子文档（一阶/二阶） [@公司机]
 - 资料：fit_surface_first_order / second_order 算子中文文档 → 存档 raw/articles/。
-- 新建 [算法页](algorithms/HALCON-灰度曲面拟合fit_surface.md)：两算子签名与曲面方程、regression/huber/tukey 选用、一阶vs二阶选择原则、平面度/基准面/去倾斜/翘曲应用、注意事项。algorithms 板块首次填入。
+- 新建 [算法页](算法/HALCON-灰度曲面拟合fit_surface.md)：两算子签名与曲面方程、regression/huber/tukey 选用、一阶vs二阶选择原则、平面度/基准面/去倾斜/翘曲应用、注意事项。algorithms 板块首次填入。
 - 更新：index.md、README.md、本日志。触及：1 新页 + index/README/log，共 4 处。
 - 备注：桌面"配置参数.txt/G2F3P14-优化.txt"为某 3D 焊锡检测软件调机参数，归具体项目页（暂不收）；depth_height/merged_cloud/找圆 等为一次性结果数据，不收。
+
+## [2026-09-08] lint | 目录与文件结构全面中文化 [@公司机]
+- 改名：`vision-wiki/`→`知识库/`、`raw/`→`原始资料/`、`wiki/`→`知识页/`、`assets/`→`附件/`。
+- 知识页分类中文：算法/项目/硬件/系统/概念/实体/综合分析；硬件下 相机·镜头·传感器·光源·采集卡；系统下 架构·通信·部署。
+- 原始资料分类中文：论文/文章/规格书/图片/代码。
+- 用 git mv 改名保留历史；脚本批量重写全部页面的链接与图片相对路径；顺带修正相机/镜头/传感器三级页里指向原始资料、附件的相对路径少一级的旧问题。
+- AGENTS.md 家规、README、index 内路径同步中文化；git 设 core.quotepath=false 以正常显示中文文件名。

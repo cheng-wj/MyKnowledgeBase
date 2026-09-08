@@ -48,5 +48,5 @@ ingested: 2026-09-08
 - 相关算子：`moments_gray_plane`（灰度矩平面，更简更快）、`gen_image_surface_*`。
 
 ## 原始文档
-- [fit_surface_first_order 算子中文文档](../../raw/articles/fit_surface_first_order.zh.md)
-- [fit_surface_second_order 算子中文文档](../../raw/articles/fit_surface_second_order.zh.md)
+- [fit_surface_first_order 算子中文文档](../../原始资料/文章/fit_surface_first_order.zh.md)
+- [fit_surface_second_order 算子中文文档](../../原始资料/文章/fit_surface_second_order.zh.md)

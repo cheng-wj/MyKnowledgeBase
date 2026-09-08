@@ -92,3 +92,21 @@
 - 验证情况：
   - 已查系统实时时间 2026-09-03；
   - 采用精准字符串替换，仅改动「多设备识别」节，其余家规内容不变。
+## 2026-09-08（第六次）
+
+### 目录结构全面中文化（vision-wiki→知识库 等）
+
+- 修改文件：
+  - `知识库/`（由 `vision-wiki/` 用 git mv 改名，含 `原始资料/`、`知识页/`、`附件/` 及全部中文子分类）
+  - `AGENTS.md`（家规内所有路径引用改为中文新路径）
+  - `README.md`、`知识库/知识页/index.md`、全部知识页（链接/图片相对路径批量重写）
+- 修改内容：
+  - `vision-wiki/raw/wiki/assets` → `知识库/原始资料/知识页/附件`；知识页分类 `algorithms/projects/hardware/systems/concepts/entities/synthesis` → `算法/项目/硬件/系统/概念/实体/综合分析`；硬件子分类 `cameras/lenses/sensors/lights/acquisition` → `相机/镜头/传感器/光源/采集卡`；系统子分类 新建 `架构/通信/部署`；原始资料 `papers/articles/datasheets/images/code` → `论文/文章/规格书/图片/代码`。
+  - 用脚本按"旧名解析绝对路径→映射新名→重算相对路径"重写全部 markdown 链接；顺带修正相机/镜头/传感器三级页中 `原始资料/附件` 相对路径少一级的历史错误。
+  - 家规三层结构、Ingest/Query/Lint 流程、多设备节、防遗漏节中的路径全部更新为中文。
+- 修改思路/原因：
+  - 主人要求全中文命名，Obsidian 原生支持中文，GitHub 亦支持；仅保留 index.md/log.md/overview.md/AGENTS.md/README.md 等功能文件英文名为工具约定。
+  - git mv 保留历史；core.quotepath=false 让中文路径正常显示。
+- 验证情况：
+  - 已查系统时间 2026-09-08；
+  - 链接校验脚本遍历全部 md，相对链接均能解析到真实文件（URL 编码的 `%28%29`、`<文件名>` 占位符除外）。
