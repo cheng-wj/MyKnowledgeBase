@@ -83,3 +83,9 @@
 - 资料①：海康 MVL-LF4040M-01-M72（40mm/Φ58/M72，8K7μ 线阵镜头）→ 存档 raw/datasheets/，新建 [镜头页](hardware/lenses/MVL-LF4040M-01-M72.md)（参数表 + 工作距离/视野对照表），index 硬件板块新增"镜头"分组。
 - 资料②：大恒 MARS-2442 官方 datasheet PDF → 存档 raw/datasheets/，相机页补本地 PDF 链接；据 datasheet 核对：接口为 CXP-12×4 通道、功耗黑白 15.2W/彩色 13.7W。
 - 更新：index.md、README.md、本日志。触及：1 新页 + MARS 页/index/README/log，共 5 处。
+
+## [2026-09-08] ingest | HALCON 灰度曲面拟合算子文档（一阶/二阶） [@公司机]
+- 资料：fit_surface_first_order / second_order 算子中文文档 → 存档 raw/articles/。
+- 新建 [算法页](algorithms/HALCON-灰度曲面拟合fit_surface.md)：两算子签名与曲面方程、regression/huber/tukey 选用、一阶vs二阶选择原则、平面度/基准面/去倾斜/翘曲应用、注意事项。algorithms 板块首次填入。
+- 更新：index.md、README.md、本日志。触及：1 新页 + index/README/log，共 4 处。
+- 备注：桌面"配置参数.txt/G2F3P14-优化.txt"为某 3D 焊锡检测软件调机参数，归具体项目页（暂不收）；depth_height/merged_cloud/找圆 等为一次性结果数据，不收。

@@ -8,7 +8,7 @@
 - [维护说明 (AGENTS.md)](../../AGENTS.md) — 结构与工作流约定（家规）
 
 ## 算法与算子（algorithms/）
-_（待摄入）_
+- [HALCON 灰度曲面拟合 fit_surface](algorithms/HALCON-灰度曲面拟合fit_surface.md) — 一阶(平面)/二阶(曲面)灰度矩拟合，基准面/平面度/去倾斜，regression/huber/tukey 抗差
 
 ## 项目经验与踩坑（projects/）
 - [项目页模板](projects/_template.md) — 含防遗漏五个固定栏目的新建项目参照

@@ -23,6 +23,10 @@
 
 ### 2026-09
 
+- **09-08 ｜ 摄入 · 算法**：HALCON 灰度曲面拟合算子 **fit_surface_first/second_order**（一阶平面/二阶曲面，基准面·平面度·去倾斜）[@公司机]
+  - 算法页：[HALCON-灰度曲面拟合fit_surface](vision-wiki/wiki/algorithms/HALCON-灰度曲面拟合fit_surface.md)
+  - 原始文档：[一阶](vision-wiki/raw/articles/fit_surface_first_order.zh.md) ｜ [二阶](vision-wiki/raw/articles/fit_surface_second_order.zh.md)
+
 - **09-08 ｜ 摄入 · 硬件（镜头 + datasheet）**：海康 **MVL-LF4040M-01-M72** 40mm 大靶面线扫镜头（Φ58/M72，8K7μ）+ 大恒 MARS-2442 官方 datasheet [@公司机]
   - 镜头页：[MVL-LF4040M-01-M72](vision-wiki/wiki/hardware/lenses/MVL-LF4040M-01-M72.md)（含工作距离/视野对照表）
   - 相机页补 datasheet：[MARS-2442-192X2M-NF](vision-wiki/wiki/hardware/cameras/MARS-2442-192X2M-NF.md)
